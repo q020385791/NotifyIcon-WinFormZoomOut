@@ -35,10 +35,10 @@
             // 
             // ZoomOut
             // 
-            this.ZoomOut.Location = new System.Drawing.Point(25, 304);
-            this.ZoomOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ZoomOut.Location = new System.Drawing.Point(19, 243);
+            this.ZoomOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ZoomOut.Name = "ZoomOut";
-            this.ZoomOut.Size = new System.Drawing.Size(89, 35);
+            this.ZoomOut.Size = new System.Drawing.Size(67, 28);
             this.ZoomOut.TabIndex = 0;
             this.ZoomOut.Text = "縮小";
             this.ZoomOut.UseVisualStyleBackColor = true;
@@ -46,37 +46,37 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(25, 21);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(19, 17);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(646, 152);
+            this.textBox1.Size = new System.Drawing.Size(486, 122);
             this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(187, 304);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(100, 243);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 35);
+            this.button1.Size = new System.Drawing.Size(63, 28);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.Text = "測試文字";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 375);
+            this.ClientSize = new System.Drawing.Size(533, 300);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.ZoomOut);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "縮小化測試";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
